@@ -1,10 +1,14 @@
 import './App.css';
-import Header from './Components/Header'
+// import Header from './Header'
+import Student from './Components/Student';
 
 function App() {
   return (
     <div className="App">
-    <Header/>
+      <Student 
+        name="Nilay" 
+        age={21}
+      />
     </div>
   );
 }
